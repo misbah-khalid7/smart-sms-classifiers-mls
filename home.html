@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart SMS Classifier</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="simple-wrapper">
+
+  <h1>Smart <span>SMS</span> Classifier</h1>
+
+  <form id="spam-form">
+    <textarea id="message" placeholder="Enter message here..."></textarea>
+    <button type="submit" id="check-btn">Analyze</button>
+  </form>
+
+  <div id="result-box">
+    <h2 id="result-label"></h2>
+    <p id="result-confidence"></p>
+  </div>
+
+  <a href="/logout" class="logout-link">Logout</a>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
